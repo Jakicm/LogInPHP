@@ -2,6 +2,8 @@
 
 include("connection.php");   
 
+
+
 $sql = "SELECT my_table.data1, my_table.data2, users.username
 FROM my_table
 INNER JOIN users ON my_table.user_id = users.id";
@@ -9,6 +11,7 @@ INNER JOIN users ON my_table.user_id = users.id";
 $stmt = $conn->prepare($sql);
 $stmt->execute();
 $note = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 
 ?>
 

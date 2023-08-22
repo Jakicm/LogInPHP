@@ -19,7 +19,7 @@
         <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4"> 
     		<img src="./resources/user.svg" class="user-avatar img-thumbnail"> 
     		<h1>LogIn</h1> 
-            <form method="post" action="./pages/check2.php">
+            <form method="post" action="./pages/check.php">
     		<form role="form" class="ng-pristine ng-valid"> 
     			<div class="form-content"> 
     				<div class="form-group"> 
